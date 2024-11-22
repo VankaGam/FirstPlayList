@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".SettingActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            tools:ignore="UselessParent">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:scaleType="centerCrop"
+                android:drawablePadding="4dp"
+                android:backgroundTint="#ffffff"
+                app:cornerRadius="0dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Настройки"
+                android:textSize="22sp"
+                android:textColor="#1A1B22"
+                android:layout_marginStart="12dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Темная тема"
+                android:textSize="16sp"
+                android:textColor="#1A1B22"
+                android:layout_marginStart="16dp"
+                tools:ignore="HardcodedText" />
+
+            <Switch
+                android:id="@+id/controlp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#ffffff"
+                android:scaleType="centerCrop"
+                android:drawablePadding="4dp"
+                app:cornerRadius="0dp"
+                android:layout_marginEnd="6dp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Поделиться приложением"
+                android:textSize="16sp"
+                android:textColor="#1A1B22"
+                android:layout_marginStart="16dp"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/vector"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/vector"
+                android:scaleType="centerCrop"
+                android:drawablePadding="4dp"
+                android:backgroundTint="#ffffff"
+                app:cornerRadius="0dp"
+                android:layout_marginEnd="6dp"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Написать в поддержку"
+                android:textSize="16sp"
+                android:textColor="#1A1B22"
+                android:layout_marginStart="16dp"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/light_mode1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/light_mode1"
+                android:scaleType="centerCrop"
+                android:drawablePadding="4dp"
+                android:backgroundTint="#ffffff"
+                app:cornerRadius="0dp"
+                android:layout_marginEnd="6dp"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Пользовательское соглашение"
+                android:textSize="16sp"
+                android:textColor="#1A1B22"
+                android:layout_marginStart="16dp"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/light_mode2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/light_mode2"
+                android:scaleType="centerCrop"
+                android:drawablePadding="4dp"
+                android:backgroundTint="#ffffff"
+                app:cornerRadius="0dp"
+                android:layout_marginEnd="6dp"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
